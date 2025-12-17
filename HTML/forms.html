@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form>
         <label>First Name : </label>
-        <input type="text", name="First_Name", placeholder="Enter your name">
+        <input type="text" , name="First_Name" , placeholder="Enter your name">
         <br>
         <label>Phone No. : </label>
-        <input type="number", name="Phone_Number", value="9414222233">
+        <input type="number" , name="Phone_Number" , value="9414222233">
         <!-- value attribute gives a default value which can be changed by user if they want to. -->
         <br>
         <label>Email : </label>
         <input type="email">
+        <!-- Don't give space within name attribute... for example "Phone_Number" is corrrect but "Phone Number" would throw an error! -->
         <br>
         <label>Password : </label>
         <input type="password">
@@ -28,14 +31,14 @@
         <br>
         <label>Enter your website url : </label>
         <input type="url">
-        <br> 
+        <br>
         <label>Hobby : </label>
         <label> Reading </label>
         <input type="checkbox">
         <label> Badminton : </label>
         <input type="checkbox">
         <br>
-        <label > Gender :</label>
+        <label> Gender :</label>
         <label for="ht8k">Male</label>
         <input type="radio" name="ma" id="ht8k">
         <label for="mt8">Female</label>
@@ -52,6 +55,16 @@
         <br>
         <input type="submit">
         <input type="reset">
+        <!-- submit and reset button have a default function in html in which 'submit' button submit the complete form and 'reset' button reset the whole form. -->
+        <br>
+        <br>
+        <select name="city">
+            <option>Choose your city</option>
+            <option>Jaipur</option>
+            <option>Udaipur</option>
+            <option>Delhi</option>
+            <option>Dehradun</option>
     </form>
 </body>
+
 </html>

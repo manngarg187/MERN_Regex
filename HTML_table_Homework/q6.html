@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="forms.html" method="get">
+        <!-- 'via "post" method -> data will go to body' && 'via "get" method -> data will go to url' -->
+        <label>Name : </label>
+        <input type="name" placeholder="Enter your name" name="name">
+        <br>
+        <label>Phone No. : </label>
+        <input type="number" name="phone">
+        <br>
+        <label>Email : </label>
+        <input type="email" name="email" readonly>
+        <br>
+        <label>City : </label>
+        <select name="city_name">
+            <option>Choose your city</option>
+            <option>Jaiselmer</option>
+            <option>Kanpur</option>
+            <option>Mussorie</option>
+        </select>
+        <br>
+        <label>Hobbies : </label>
+        <label>Singing</label>
+        <input type="checkbox" name="singing" value="sing">
+        <label>Baseball</label>
+        <input type="checkbox" name="baseball">
+        <br>
+        <label>Password : </label>
+        <input type="password" name="pass">
+        <br>
+        <label>Gender : </label>
+        <label for="ytm">Male</label>
+        <input type="radio" name="gender" value="male" id="ytm">
+        <label for="ttc">Female</label>
+        <input type="radio" name="gender" value="female" id="ttc">
+        <br>
+        <label>Date of Birth : </label>
+        <input type="date" name="dob">
+        <br>
+        <label>Message : </label>
+        <textarea height="10px" width="20px" name="message"></textarea>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+Form is saved in the following formet:
+
+http://127.0.0.1:3000/HTML_table_Homework/forms.html?name=Mann&phone=1223334444&email=mann%40gmail.com&city_name=Choose+your+city&singing=on&pass=mann123&single=on&dob=2025-12-16&message=Hi!
