@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="4">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th colspan="2" rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m. </td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td colspan="2">Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m. </td>
+            <td>11:00 a.m. </td>
+            <td colspan="2" rowspan="2">XPath</td>
+        </tr>
+        <tr>
+            <td>11:00 a.m. </td>
+            <td>2:00 p.m. </td>
+        </tr>
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m. </td>
+            <td>12:00 p.m. </td>
+            <td colspan="2">XSL Formatting Objects</td>
+        </tr>
+    </table>
+
+    <br>
+    
+    <ul type="disc">
+        <li>Daily computing</li>
+        <li>Web design
+            <ol type="1">
+                <li>html 5</li>
+                <li>hyperlink</li>
+                <li>Inserting Images</li>
+            </ol>
+        </li>
+        <li>Javascript
+            <ul type="circle">
+                <li>conditional structure
+                    <ul type="square">
+                        <li>If statement</li>
+                        <li>If else statement</li>
+                        <li>case statement</li>
+                    </ul>
+                </li>
+                <li>loop statement</li>
+            </ul>
+        </li>
+    </ul>
+
+    <form>
+        <label>First Name</label>
+        <input type="name" placeholder="Your First Name" name="first_name">
+        <br>
+        <label>Last Name</label>
+        <input type="name" placeholder="Your Last Name" name="last_name">
+        <br>
+        <label>Email ID</label>
+        <input type="email" placeholder="abc@gmail.com" name="email_id">
+        <br>
+        <label>Mobile Number</label>
+        <input type="number" placeholder="2233388899" name="mobile_no">
+        <br>
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br>
+        <label>Date of Birth(DOB)</label>
+        <input type="date" name="dob">
+        <br>
+        <label >Address</label>
+        <textarea cols="20px" rows="10px" name="address"></textarea>
+        <br>
+        <label for="countrty>Country</label>
+        <select id="country" name="country">
+            <option>India</option>
+            <option>Brazil</option>
+            <option>Mexico</option>
+        </select>
+        <br>
+        <label for="hobbies">Hobbies</label>
+        <input type="checkbox" id="sing">
+        <label for="sing">Singing</label>
+        <input type="checkbox" id="sing">
+        <label for="dance">Dancing</label>
+        <input type="checkbox" id="sketch">
+        <label for="sketch">Sketching</label>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
+
+http://127.0.0.1:3000/test.html?first_name=Mann&last_name=Garg&email_id=abc%40gmail.com&mobile_no=7878909087&gender=on&dob=2025-12-02&address=fdfdffbv+dfdfd
