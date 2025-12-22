@@ -1,0 +1,40 @@
+/* Notes of CSS:
+
+Order of priority:
+1. Inline
+2. Internal/External (depend on their order)
+3. Browser 
+
+NOTE: Internal & External are of same priority... so whichever of them come afterwards is choosen
+*/
+h1{
+    color:skyblue;
+    background-color:black;
+    letter-spacing: 3px;
+    text-shadow: 3px 0px 3px yellow;
+}
+
+p{
+    color:red;
+    background-color: yellowgreen;
+    text-transform:capitalize;
+}
+a{
+    text-transform:uppercase;
+    text-decoration: none;
+}
+#spec{
+    text-transform:uppercase;
+}
+#img{
+    /* background-image: url=('css_background.webp');  -> keep in mind about the syntax... I did the mistake to put the equals to*/
+    background-image: url('css_background.webp');
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+body{
+    background-image: url('background_css.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
