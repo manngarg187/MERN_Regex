@@ -1,0 +1,9 @@
+The trick to remember 🎯
+
+D I V = Divide the page
+Big sections, rows, columns, containers.
+block element
+
+S P A N = Span a word
+Tiny stretches inside text, just enough to wrap content.
+inline element

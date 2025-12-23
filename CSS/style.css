@@ -33,8 +33,33 @@ a{
     background-repeat:no-repeat;
 
 }
-body{
+/* body{
     background-image: url('background_css.jpeg');
     background-size:cover;
-    background-repeat:no-repeat;
+    background-repeat:no-repeat; */
+}
+h4{
+    color:white;
+    border: 2px solid skyblue ;
+    border-radius:10px;
+    /* padding:5px; */
+    /* padding is used to give space between our content and our border */
+    padding: 10px 30px 20px 50px; -> /*top right bottom left*/
+}
+.utm{
+    color:yellowgreen;
+    border: 5px dotted pink;
+    padding: 10px;
+    margin: 5px;
+    margin: 10px 20px 40px 30px; /*top right bottom left*/
+    /* margin is used to give space outside the border */
+    outline: 5px solid skyblue;
+    outline-offset: 10px;
+}
+.box_model{
+    height:50px;
+    width:200px;
+    border:10px solid red;
+    padding:15px;
+    margin:20px;
 }
