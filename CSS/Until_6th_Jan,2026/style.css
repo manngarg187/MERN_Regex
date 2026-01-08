@@ -44,7 +44,8 @@ h4{
     border-radius:10px;
     /* padding:5px; */
     /* padding is used to give space between our content and our border */
-    padding: 10px 30px 20px 50px; -> /*top right bottom left*/
+    padding: 10px 30px 20px 50px; /*-> top right bottom left*/
+    
 }
 .utm{
     color:yellowgreen;
@@ -62,4 +63,39 @@ h4{
     border:10px solid red;
     padding:15px;
     margin:20px;
+}
+.cdn{
+    color:aquamarine;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:greenyellow;
+}
+a:hover{
+    color:blueviolet;
+}
+a:active{
+    color:yellow;
+}
+.position{
+    width: 450px;
+    height: 100px;
+    border: 2px solid red;
+    position: absolute;
+    top: 50px;
+    /* bottom: 100px; */
+    left: 50px;
+    /* NOTE: Top and bottom can't given at the same time &&& left and right can't be given at the same time! */
+}
+.position_main{
+    width: 600px;
+    height: 200px;
+    border: 2px solid red;
+    position: relative;
+    top: 50px;
+    /* bottom: 100px; */
+    left: 50px;
+    /* NOTE: Top and bottom can't given at the same time &&& left and right can't be given at the same time! */
 }
