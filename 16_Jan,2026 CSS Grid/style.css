@@ -1,0 +1,11 @@
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid pink;
+}
+.leader{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    gap: 10px;
+}

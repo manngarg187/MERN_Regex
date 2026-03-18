@@ -1,0 +1,1247 @@
+// console.log("hello java");
+// console.log("hello world");
+
+// alert("message");
+// let a = prompt("enter your mobile number");
+// console.log(a);
+// let a = confirm("message");
+// console.log(a);
+// document.write("message")
+
+
+// let 1a = 10
+// console.log(1a);
+
+
+// camel-case
+
+// let fullname = "abc"
+// let fullName = "abc"  //js
+// let Fullname = "abc"
+
+// a = 10
+// b = "10"
+
+// declare variable
+
+// var a = 10
+// let b = 20
+// const c = 30
+
+// var a ;
+// var a = 10;
+// var a = 20;
+// console.log(a);
+
+// let a = 10;
+// a = 20;
+// console.log(a);
+
+// const a;
+// const a = 10;
+// console.log(a);
+
+// const a = 10;
+// a = 20
+// console.log(a);
+
+
+// var a = 10;
+// let b = 20;
+// const c = 30;
+
+
+// function abc() {
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+// abc()
+
+// if (true) {
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+// function abc() {
+//     var a = 10;
+//     let b = 20;
+//     const c = 30;
+//     // console.log(a);
+//     // console.log(b);
+//     // console.log(c);
+// }
+// abc()
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// Block scope
+
+// if (true) {
+//     var a = 10;
+//     let b = 20;
+//     const c = 30;
+//     // console.log(a);
+//     // console.log(b);
+//     // console.log(c);
+// }
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+// var a = 10
+// console.log(a);
+// console.log(b);// undefined
+// b = 10;
+// var b;
+
+
+// var a = 10
+// console.log(a);
+// b = 10;
+// console.log(b);
+
+
+// let or const
+
+
+// console.log(a);
+// let a = 10;
+
+// console.log(b);
+// const b;
+
+
+// *** Datatypes in js
+
+// 1. primitive datatypes (single value & immutable)
+// 2. non-primitive datatypes (collection of data & mutable)
+
+// 1. primitive datatypes
+
+// 1.1 number :- represent numaric value (integer and decimal value)
+
+// 64- bit floating point number
+// max safe range is + 2 ^ 53 - 1
+// min safe range is - 2 ^ 53 - 1
+
+
+// let a = 10
+// let b = 10.5
+// console.log(typeof a);
+// console.log(typeof b);
+
+// 1.2  String : repersent text enclosed in quotes (single & double)
+
+// let s = "12345"
+// let a = "abcdefgh"
+// let b = 'hello javascript'
+// let str = "Page layouts look better with something in each section."
+
+// let a = "10"
+// let b = "10"
+// let c = 10
+// let result = a / b
+// let result = a + b // 1010
+// console.log(result);
+// console.log(typeof a);
+// console.log(typeof b);
+// console.log(typeof a);
+// console.log(typeof b);
+// console.log(typeof str);
+
+// 1.3 boolean : repersent  a logical value( true and false)
+
+// let a = true
+// let b = false
+// console.log(typeof a);
+// console.log(typeof b);
+
+// 1.4 undefined : a variable that has been declared but not assigned a value
+
+// let a;
+// console.log(a);
+// console.log(typeof a);
+
+// 1.5 null :- represents an intentional absence of any value
+
+// let a = null
+// console.log(a);
+// console.log(typeof a);
+
+// 1.6 BigInt : represent integer larger than number safe range
+
+// let b = 10n
+// console.log(typeof a);
+
+// let a = 10n;
+// let b = 10n;
+
+// let c = a + b;
+// console.log(c);
+// console.log(typeof a);
+// console.log(typeof b);
+
+// 1.7  Symbol :- unique and immutable values,used as object keys ( unique idenfier)
+
+
+// let a = Symbol("123")
+// let b = Symbol("123")
+// console.log(a == b);
+
+// let b = 10
+// let a = 10
+// console.log(a == b);
+
+
+// 2. non-primative datatypes
+
+// 2.1 object :- collection of key-value pairs.
+
+// const obj = {} // empty object
+// console.log(typeof obj); // object
+
+// let student = {
+//     name: "abc",
+//     age: 25,
+//     role: "student",
+//     rollNo: 10,
+//     name: "mukesh",
+// };
+// console.log( typeof student);
+// dot notation
+// console.log(student.name);
+// console.log(student.age);
+
+// bracket notation
+// console.log(student["role"]);
+
+// 2.2 array :- collection of values.
+
+// let arr = [] //empty array
+// console.log(typeof arr); // object
+
+// let arr = [10, "hello", true, null]
+// console.log(arr[1]);
+// console.log(arr.length);
+
+// 2.3 function :- resuable block of code
+
+// function proof(a, b) {
+//     let c = a + b
+//     return c
+// }
+
+// console.log(proof(10, 20));
+// console.log(proof(20, 30));
+
+
+// let a = 10
+// let b = a
+// b = 15
+// console.log(a);
+// console.log(b);
+
+
+// let obj = {
+//     name: "abc",
+//     age: 25
+// }
+// let obj1 = obj
+
+// delete obj1.name
+
+// console.log(obj);
+// console.log(obj1);
+
+
+
+// operators
+
+// 1. arithmatic op : used for mathematical calculation
+
+// 1.1 addition(+ )
+
+// let a = 10
+// let b = 10
+// console.log(a + b);
+
+
+// let a = 10
+// let b = "10"
+
+
+// console.log(a == b) // true
+// console.log(a === b); // false
+
+
+// if (10 > 5 && 10 < 15) {
+//     console.log("first");
+// } else {
+//     console.log("second");
+// }
+
+// let a = 10
+// if (a != 10) {
+//     console.log("first");
+// } else {
+//     console.log("second");
+// }
+
+
+
+// let a = 5;
+// console.log(a);
+
+// let b = ++a;
+
+// console.log(b);
+// console.log(a);
+
+
+// for (let i = 0; i < 10; ++i) {
+//     console.log(i);
+// }
+
+// let a = 10
+// console.log(a++ + ++a);
+
+
+// let a = 10
+// console.log(a);
+// let b = ++a
+// console.log(a);
+// console.log(b);
+
+
+// let a = 10
+// let b = a--
+// console.log(a);
+// console.log(b);
+
+
+
+// let a = "123"
+// console.log(typeof +a);
+
+// console.log("10" / 2);
+// console.log(+"10");
+// console.log(+true);
+// console.log(+"hello");
+// console.log(+undefined);
+
+// let a = Number("10")
+
+// let a = +"10"
+
+// console.log(typeof a);
+
+
+// console.log(-"10");
+// console.log(-true);
+// console.log(-"hello");
+// console.log(-undefined);
+
+// condition statements
+
+// if-else
+
+// let a = 10
+
+// if (a < 8) {
+//     // true statement
+//     console.log("hello javascript");
+// } else {
+//     // false statement
+//     console.log("hello js");
+// }
+
+// if-else-if
+
+// let a = 10
+// if (a < 8) {
+//     // true statement
+//     console.log("statement 1");
+// } else if (a > 10) {
+//     // false statement
+//     console.log("statement 2");
+// } else {
+//     console.log("statement 3");
+// }
+
+
+// nested if
+
+
+// switch
+
+// let a = 80
+// switch (true) {
+//     case (a > 90): console.log("A");
+//         break;
+//     case (a > 75): console.log("B");
+//         break;
+//     case 3: console.log("3");
+//         break;
+//     case 4: console.log("4");
+//         break;
+//     default: console.log("5");
+// }
+
+
+// let a = ""
+// switch (a) {
+//     case 1:
+//         console.log("1");
+//     case false:
+//         console.log("2");
+//     case 3:
+//         console.log("3");
+//     case 4:
+//         console.log("4");
+//     default:
+//         console.log("5");
+// }
+
+
+// let a = "2"
+// switch (a) {
+//     case 1:
+//         console.log("1");
+//         break;
+//     case 2:
+//         console.log("2");
+//         break;
+//     case 3:
+//         console.log("3");
+//         break;
+//     case 4:
+//         console.log("4");
+//         break;
+//     default:
+//         console.log("5");
+// }
+// let a = 1
+// while (a <= 10) {
+//     console.log(a);
+//     a++
+// }
+// let a = 1
+
+// do {
+//     console.log(a);
+//     a++
+// } while (a <= 10)
+
+
+// number methods
+
+// 1. Number : convert value in number
+
+// let a = "123"
+// let a = Number("123")
+// let a = Number(false)
+// console.log(a);
+// console.log(typeof a);
+// let a = +"123"
+// let a = +"abc"
+// console.log(a);
+
+
+// 2. parseInt :  string convert in integer value
+
+// console.log(parseInt("10.33"));
+// console.log(parseInt(10.33));
+// console.log(parseInt("abc10.33"));
+
+
+// 3. parseFloat :  convert decimal
+
+// console.log(parseFloat("10.33px"));
+// console.log(parseFloat(10.33));
+// console.log(parseFloat(10));
+// console.log(parseFloat("10abc"));
+
+// 4.  isNaN
+
+// let a = "abc"
+// console.log(Number.isNaN(a)); //false
+// let a = NaN
+// console.log(Number.isNaN(a));
+// let a = 123
+// let b = "abc"
+// let c = a / b
+// console.log(Number.isNaN(a));
+// console.log(Number.isNaN(b));
+// console.log(Number.isNaN(c));
+// console.log(Number.isNaN(abc));
+
+
+
+// 5. isfinite
+
+// console.log(Number.isFinite("10"));
+// console.log(Number.isFinite(10));
+// console.log(Number.isFinite(10.33));
+// console.log(Number.isFinite(Infinity));
+// console.log(Number.isFinite(-10.33));
+
+// 6. isInteger()
+
+// console.log(Number.isInteger("10"));
+// console.log(Number.isInteger(10));
+// console.log(Number.isInteger(10.33));
+// console.log(Number.isInteger(Infinity));
+// console.log(Number.isInteger(-10.33));
+
+
+// 7. toFixed()
+
+// let a = 15.226
+// console.log(a);
+// console.log(a.toFixed(1));
+// console.log(a.toFixed(2));
+// console.log(a.toFixed(3));
+// console.log(a.toFixed(4));
+// console.log(a.toFixed(5));
+
+// 8. toPercision
+
+// let a = 15.2222
+// console.log(a.toPrecision(2));
+// console.log(a.toPrecision(3));
+// console.log(a.toPrecision(4));
+// console.log(a.toPrecision(5));
+// console.log(a.toPrecision(6));
+// console.log(a.toPrecision(7));
+
+// 9. toString
+
+// let a = 123
+
+// let b = a.toString()
+
+// console.log(a);
+// console.log(b);
+
+// console.log(typeof a.toString());
+
+// math object methods
+
+// 1. math.round()
+// console.log(Math.round(10.3));
+// console.log(Math.round(10.7));
+// console.log(Math.round(-10.7));
+
+// 2. math.ceil()
+
+// console.log(Math.ceil(10.6));
+// console.log(Math.ceil(10.3));
+// console.log(Math.ceil(10.1));
+// console.log(Math.ceil(-10.1));
+
+// 3. math.floor()
+
+// console.log(Math.floor(10.6));
+// console.log(Math.floor(10.3));
+// console.log(Math.floor(10.1));
+// console.log(Math.floor(-10.1));
+
+// 4. math.random
+
+// console.log(Math.random());
+// console.log(Math.random());
+// console.log(Math.random());
+
+
+// console.log(1000 + Math.random() * 9000);
+// console.log(1000 + Math.random() * 9000);
+// console.log(1000 + Math.random() * 9000);
+// console.log(1000 + Math.random() * 9000);
+// console.log(1000 + Math.random() * 9000);
+// console.log(1000 + Math.random() * 9000);
+// console.log(1000 + Math.random() * 9000);
+
+
+// console.log(Math.floor(1000 + Math.random() * 9000));
+// console.log(Math.floor(1000 + Math.random() * 9000));
+// console.log(Math.floor(1000 + Math.random() * 9000));
+// console.log(Math.floor(1000 + Math.random() * 9000));
+
+
+// absolute
+
+// console.log(Math.abs(4.5));
+// console.log(Math.abs(-4.5));
+// console.log(Math.abs(5));
+
+
+// sign()
+
+// console.log(Math.sign(4.5));
+// console.log(Math.sign(-4.5));
+// console.log(Math.sign(0));
+
+
+// power()
+// console.log(Math.pow(5, 3));
+
+// sqrt()
+// console.log(Math.sqrt(8));
+
+// cbrt()
+// console.log(Math.cbrt(8));
+
+// max
+// console.log(Math.max(-10, -20, -30, -40));
+
+// min
+// console.log(Math.min(-10, -20, -30, -40));
+
+
+// let num = 1234567890
+// let count = 0
+// while (num > 0) {
+//     let a = num % 10
+//     count++;
+//     num = (num - a) / 10
+// }
+
+// console.log(count);
+
+
+
+// String
+
+
+
+// let str = "javascript"
+// let str1 = 'html'
+// let str2 = `css`
+
+// let a = 10
+
+// console.log("10 *  ${a}");
+// console.log('10 *  ${a}');
+// console.log(`${a} ${*} ${a}`);
+
+
+// console.log(typeof str);
+// console.log(typeof str1);
+// console.log(typeof str2);
+
+// string properties
+
+// 1. length
+
+// let str = "javascript"
+// console.log(str.length);
+
+// String methods
+
+// 1.charAt():
+
+// let str = "javascript"
+// console.log(str.charAt(2));
+// console.log(str.charAt(0));
+
+// 2. at()
+
+// let str = "javascript"
+// console.log(str.at(-1));
+// console.log(str.at(1));
+
+// 3. indexOf()
+
+// let str = "hello javascript"
+// console.log(str.indexOf("a"));
+
+// 4. lastIndexOf()
+
+// let str = "hello javascript"
+// console.log(str.lastIndexOf("a"));
+
+
+// 5. includes
+
+// let str = "hello javascript"
+
+// console.log(str.includes("Hello"));
+// console.log(str.includes("z"));
+
+// 6. startWith
+
+// let str = "hello javascript"
+// console.log(str.startsWith("j"));
+
+// 7. endWith
+
+// let str = "hello javascript "
+// console.log(str.endsWith("javascript"));
+// console.log(str.endsWith("j"));
+// console.log(str.endsWith("t"));
+// console.log(str.endsWith(" "));
+
+// 8. trim
+
+// let str = "a      java script       b"
+// console.log(str.trim());
+
+// 9. trimStart
+
+// let str = "      java script       "
+// console.log(str.trimStart());
+
+// 10. trimEnd
+
+// let str = "      java script       "
+// console.log(str.trimEnd());
+
+// 11. slice(startindex, endindex)
+
+// let str = "javascript"
+// console.log(str.slice(-6, -3));
+
+// 12. substring(startindex, endindex)
+
+// let str = "javascript"
+// console.log(str.substring(0, 4));
+
+// 13.  substr
+// let str = "javascript"
+// console.log(str.substr(0, 10));
+
+// 14. replace
+
+// let str = "hello javascript hello"
+// console.log(str.replace("e", "a"));
+
+// 15. replaceAll
+
+// let str = "hello javascript hello"
+// console.log(str.replaceAll("e", "a"));
+
+// 16. toUpperCase
+
+// let str = "javascript"
+// console.log(str.toUpperCase());
+
+// 17. toLowerCase()
+
+// let str = "JavaScripT"
+// console.log(str.toLowerCase());
+
+// let a = "javascript"
+
+// let result = ""
+
+// for (let i = 0; i <= a.length; i++) {
+
+//     let abc = a[i].toUpperCase()
+
+//     console.log(abc);
+// }
+
+
+// 18. split() : string to array
+
+// let str = "hello-java-script"
+// let result = str.split("-")
+// console.log(result);
+
+
+// 19. concat
+
+// let a = "hello"
+// let b = "javascript"
+// let c = "hiiii"
+// let d = a.concat(" ", "javascript", " ", c)
+// console.log(d);
+
+
+// console.log("hello" + " " + "javascript");
+
+// 20. repeat
+
+// let str = "javascript ", str1 = "hello"
+// console.log(str.repeat(0));
+// console.log(str1.repeat(5));
+
+// 21. padstart
+
+
+// let str = "123"
+// let res1 = str.padStart(5, "6")
+// let res2 = res1.padEnd(8, "4")
+
+// console.log(res2);
+
+
+// console.log(str.padStart(10, "0"));
+// console.log(str.padEnd(10, "0"));
+
+// 21. padEnd
+
+// let str = "123"
+// console.log(str.padEnd(10, "0"));
+
+// 22. toString()
+
+// let a = 10
+// console.log(typeof a.toString());
+
+
+// let string = "hello"
+// console.log(string.charAt(4));
+
+
+// let str = "123456"
+// console.log(!isNaN(str));
+
+
+
+// let str = "javascript"
+// let result = ""
+// let str2 = str.charAt(0).toUpperCase() + str.slice(1)
+// for (let a = str2.length - 1; a >= 0; a--) {
+//     result += str2[a]
+// }
+// console.log(result);
+
+
+
+// let str = "abc"
+// console.log(str.indexOf("b",2));
+
+// let str = "banana"
+// console.log(str.replace("a"));
+
+// let str = "javascrsipt"
+
+// let res = [...new Set(str)].join("")
+// console.log(res);
+
+// function abc(a, b, ...rest) {
+//     console.log(a, b, rest);
+// }
+
+// let arr = [10, 20, 30, 40, 50, 60]
+// abc(...arr)
+// abc(10, 20, 30, 40, 50, 60)
+
+// let str = "javaScript"
+// let vow = 0;
+// let con = 0;
+// for (let i = 0; i < str.length; i++) {
+//     if (str[i] == 'a' || str[i] == 'o' || str[i] == 'e' || str[i] == 'u' || str[i] == 'i') {
+//         vow++;
+//     } else {
+//         con++;
+//     }
+// }
+// console.log(vow);
+// console.log(con)
+
+
+// function type
+
+// 1. named function( declareation function)
+
+// function abc(a, b, c) {
+//     let result = `${a} ${c} ${b}`
+//     return result
+// }
+// console.log(abc(10, 20, "+"));
+// console.log(abc(10, 20));
+// console.log(abc(10, 20));
+// console.log(abc(10, 20));
+// console.log(abc(10, 20));
+
+// 2. expression function :-
+
+// let a = function (a, b) {
+//     return a * b
+// }
+// console.log(a(10, 10));
+
+// 3. anounmous function
+
+// function () {
+//     return a * b
+// }
+
+// 4. IIFE  function
+
+// (function () {
+//     console.log("hello");
+// })()
+
+// 5. arrow function
+
+// let a = () => {
+// }
+
+// let abc = a => a * a;
+
+// console.log(abc(10));
+
+// let mno = (a, b) => {
+//     return a * b
+// }
+
+// 6. callback
+
+
+// function abc(a, b, callback) {
+//     callback(a, b)
+// }
+
+// function mno(a, b) {
+//     console.log(a + b);
+// }
+
+// abc(10, 20, mno)
+
+// abc(10, 20, function mno(a, b) {
+//     console.log(a + b);
+// })
+
+
+
+
+
+
+// *** array : collection of data store in single variable
+
+// let arr = [] // empty array
+
+// *** creation of array
+
+// 1. literal methods
+// let arr = [10, "a", null, 40]
+// console.log(arr);
+
+// 2. new Array methods
+
+// let arr = new Array()
+// arr[0] = 10
+// arr[1] = 20
+// arr[2] = 30
+// console.log(arr);
+
+
+//  *** access of element in array
+// let arr = [10, 20, 30, 40];
+// console.log(arr[0]);
+
+//  check type of variable
+
+// let arr = [10, 20, 30, 40];
+// console.log(typeof arr); //object
+
+// console.log(Array.isArray(arr));  // true
+
+// *** array properties
+
+// 1. length:-
+
+// let arr = [10, 20, 30, 40]
+// console.log(arr[0]);
+// console.log(arr[1]);
+
+// *** array methods
+
+// 1. push() :- add elemnts in last index
+
+// let arr = [10, 20, 30]
+// arr.push(40)
+// console.log(arr);
+
+// 2. pop() :- add elemnts from last index
+
+// let arr = [10, 20, 30]
+// arr.pop()
+// console.log(arr);
+
+// 3. unshift():- add elemnts in start index
+
+// let arr = [10, 20, 30]
+// arr.unshift(40)
+// console.log(arr);
+
+// 4. shift():-  remove elemnts in start index
+
+// let arr = [10, 20, 30]
+// arr.shift()
+// console.log(arr);
+
+// 5. concat(): - add / merge two array
+
+// let arr = [10, 20]
+// let arr1 = [30, 40]
+// let arr2 = [50, 60]
+
+// let arr3 = arr.concat(arr1, arr2)
+// console.log(arr);
+// console.log(arr1);
+// console.log(arr2);
+// console.log(arr3);
+
+// 6. slice() :- extract array
+
+// let arr = [10, 20, 30, 40, 50]
+// let arr1 = arr.slice(1, 3)
+// let arr1 = arr.slice(-3, -1)
+
+// console.log(arr);
+// console.log(arr1);
+
+// 7. splice :- add / delete element from anywhere in array
+
+// let arr = [10, 20, 30, 40, 50, 60]
+// arr.splice(2, 0, 90)
+// // arr.splice(0, 1)
+// console.log(arr);
+
+// 8. reverse() :  modify orignal array
+
+// let arr = [10, 20, 30, 40, 50]
+// let arr1 = arr.reverse()
+// console.log(arr);
+// console.log(arr1);
+
+// 9. toReversed(): return new array
+
+// let arr = [10, 20, 30, 40, 50]
+// let arr1 = arr.toReversed()
+// console.log(arr);
+// console.log(arr1);
+
+
+// 10. includes: check if element is exist in array return boolen value
+
+// let arr = [10, 20, 30, 40, 50]
+// let arr1 = arr.includes(60)
+// console.log(arr1);
+
+// 11. indexOf : find index of element
+
+// let arr = [10, 20, 30, 40, 50]
+// let arr1 = arr.indexOf(40, 4)
+// console.log(arr1);
+
+
+// 12. at() : same as indeOf, spport nagitive indexing
+
+// let arr = [10, 20, 30, 40, 50]
+// let arr1 = arr.at(-2)
+// console.log(arr1);
+
+// 13. sort() // tosorted
+
+// let arr = [10, 18, 2, 12, 19, 22, 5]
+// let arr1 = arr.sort()
+// let arr1 = arr.sort((a, b) => b - a)
+// console.log(arr);
+
+// 14. forEach : looping an array, no return, not used continue and break
+
+// let arr = [10, 20, 30, 40, 50];
+// let a = [];
+// let result = arr.forEach(val => a.push(val));
+// console.log(a);
+
+// 15. map(): to transform an array,return new array
+
+// let arr = [10, 20, 30, 40, 50];
+// let result = arr.map((val, i, self) => {
+//     return val * val;
+// });
+// console.log(result);
+
+// 16. filter
+
+// let arr = [10, 20, 30, 40, 50];
+// let result = arr.filter((val) => {
+//     if (val > 80) {
+//         return val
+//     }
+// })
+// console.log(result);
+
+// 17. find
+
+// let arr = [10, 20, 30, 40, 50];
+// let result = arr.find((val) => {
+//     if (val > 20) return val
+// })
+// console.log(result);
+
+// 18. some (or)
+
+// let arr = [10, 20, 30, 40, 50];
+// let result = arr.some((val) => val < 40)
+// console.log(result);
+
+// 19 every(and)
+
+// let arr = [10, 20, 30, 40, 50];
+// let result = arr.every((val) => val > 5)
+// console.log(result);
+
+// 20. join  : convert array to string
+
+// let arr = ["javascript", "html", "css"]
+// let result = arr.join("")
+// console.log(result);
+
+
+// 21. for..of
+
+// let arr = [10, 20, 30, 40, 50];
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     console.log(arr[i]);
+// }
+
+// for (let value of arr) {
+//     console.log(value);
+// }
+
+// 22. reduce
+
+// let result = arr.reduce(callback, initialvalue)
+// let arr = [10, 20, 30, 40, 50];
+// let result = arr.reduce((acc, val, i, self) => acc + val, 0)
+// console.log(result);
+
+// 23. flat
+
+// let arr = [10, [20, [30, [40, 50]]]]
+// let result = arr.flat(Infinity)
+// console.log(arr);
+// console.log(result);
+
+// 24. flatmap : map +flat ( single level ,default)
+
+// let arr = [10, 20, 30, 40, 50]
+// let result = arr.map((val) => [val * 2]).flat()
+// console.log(result);
+
+// 25 Array.from()
+
+// console.log(Array.from("javascript"));
+// let result = Array.from({ length: 10 }, (_, i) => i)
+// console.log(result);
+
+// *** merge two array
+
+// let arr = [1, 2, 3]
+// let arr1 = [4, 5, 6]
+// let result = [...arr, ...arr1]
+// console.log(result);
+
+
+// shallow copy / deep copy
+
+// let arr = [10, [20, 30]]
+// let arr1 = [...arr]
+// let arr1 = structuredClone(arr)
+
+// arr1[0] = 50
+// arr1[1][0] = 50
+// console.log(arr);
+// console.log(arr1);
+
+// let arr = [10, 20, [30, 40]]
+
+// let arr1 = [...arr]
+// let arr1 = structuredClone(arr)
+
+// arr1[2][0] = 50
+// console.log(arr);
+// console.log(arr1);
+
+
+// let arr = [10, 20]
+// arr[100] = 30
+// console.log(arr);
+
+// destructure
+
+// let arr = [10, 20, 30, 40, 50]
+// let [a] = arr
+// let [a, b] = arr
+// let [...rest] = arr
+// let [a, ...z] = arr
+// let [_, a,] = arr
+// let [_, a, b, ...z] = arr
+// console.log(a, b, rest);
+
+
+// function abc(...x) {
+//     console.log(x);
+// }
+
+// let arr = [10, 20, 30, 40]
+
+// abc([...arr])
+
+// abc(10, 20, 30, 40, 50)
+
+
+// let arr = [10, 20, 80, 70, 70, 40, 20]
+// let sort = arr.sort((a, b) => b - a)
+// console.log(sort[1]);
+
+// let arr = [10, 20, 80, 70, 70, 40, 20]
+// let result = [...new Set(arr)]
+// console.log(result);
+
+// abc()
+// console.log(a);
+// var a = 10;
+
+// function abc() {
+//     console.log("heloo");
+// }
+
+
+// function abc(a = 10, b = 20) {
+//     console.log(a + b);
+
+// }
+// abc(50, 50)
+
+
+// console.log(a);
+// let a = 10
+// abc()
+// function abc() {
+//     var b = 20
+//     console.log(b);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

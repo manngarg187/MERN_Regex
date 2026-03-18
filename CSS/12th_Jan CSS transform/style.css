@@ -1,0 +1,16 @@
+.tht{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    /* transform: translate(50px);
+    transform: rotate(30deg);
+    transform: scale(1.5);
+    transform: skew(30deg) */
+
+    transform: translate(50px) rotate(30deg) scale(1.5);
+    transition: transform 2s ease 0.5s;
+}
+.tht:hover{
+    transform: translate(0px,200px);
+    background-color: greenyellow;
+}
