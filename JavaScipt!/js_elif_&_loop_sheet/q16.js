@@ -1,27 +1,20 @@
 // 16. Count digits in a number
 // Input: num = 12345
 
-// const num=12345;
+let num=12345;
 
-// let count=0;
+let count=0;
 
-// while (num>0){
-//     count++;
-//     num/=10;
-// }
 
-let obj1={
-    name: "abc",
-
-}
-let obj2={
-    age:25,
-    role:"student",
+if (num===0){
+    console.log(1);
+    return;
 }
 
-let obj3=Object.assign({},obj1,obj2)
-let obj4=Object.assign(obj1,obj2)
+while (num>0){
+    count = count + 1;
+    // num = num/10; -> Wrong
+    num = Math.floor(num/10);
+}
+console.log(count);
 
-console.log(obj3)
-console.log(obj1)
-console.log(obj4)
