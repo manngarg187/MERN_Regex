@@ -1,3 +1,6 @@
-// 1. Find the length of a string "JavaScript".
+// 44. Remove all vowels from "JavaScript" using replace().
 
-let a = "JavaScript"
+let str = "JavaScript";
+let result = str.replace(/[aeiou]/gi, "");
+
+console.log(result);

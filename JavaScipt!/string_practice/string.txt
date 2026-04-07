@@ -12,6 +12,7 @@ JavaScript String Methods – 60 Practice Problems
 10. Trim extra spaces from " hello ".
 11. Trim spaces only from the start of " JavaScript".
 12. Trim spaces only from the end of "React ".
+
 13. Replace "World" with "JavaScript" in "Hello World".
 14. Replace all spaces with hyphens in "web development course".
 15. Concatenate "Hello" and "World" using a string method.
