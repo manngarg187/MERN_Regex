@@ -12,6 +12,7 @@
 // let 1a = 10
 // console.log(1a);
 
+
 // camel-case
 
 // let fullname = "abc"
@@ -20,10 +21,6 @@
 
 // a = 10
 // b = "10"
-
---   -----  -----  ------   ---------
-
-30 Jan, 2026 
 
 // declare variable
 
@@ -268,9 +265,7 @@
 // console.log(obj);
 // console.log(obj1);
 
--- -----    ----     -------
 
-Date : 5 Feb, 2026
 
 // operators
 
@@ -357,9 +352,6 @@ Date : 5 Feb, 2026
 // console.log(-true);
 // console.log(-"hello");
 // console.log(-undefined);
-
-
- -- --- --- ---- --
 
 // condition statements
 
@@ -1232,6 +1224,10 @@ Date : 5 Feb, 2026
 // abc(50, 50)
 
 
+
+
+
+
 // console.log(a);
 // let a = 10
 // abc()
@@ -1243,13 +1239,479 @@ Date : 5 Feb, 2026
 
 
 
+// let arr = [10, 20, 30, 40, 50]
+// let result = arr.slice(-5, -3)
+// console.log(result);
+
+
+// let arr = [10, 20, 30, 40, 50]
+// let result = arr.splice(1, 2)
+// console.log(arr);
+
+
+// let a = "10"
+// let b = "10"
+
+// let a = Symbol(1)
+// let b = Symbol(1)
+
+// console.log(a == b);
+
+// let arr = [10, 20, 30, 40, 50]
+
+// let result = arr.filter((val, i) => console.log(val, i))
+
+
+// let result = arr.reduce(callback,initialvalue)
+// let arr = [10, 20, 30, 40, 50]
+// let result = arr.reduce((acc, val, i, self) => acc + val, 0)
+// console.log(result);
 
 
 
 
 
+// *** object
+
+// let obj = {} // empty object
+// console.log(typeof obj);
+
+// literial methods object creation (basic methods)
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+// }
+// console.log(obj);
 
 
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     name: "mno"
+// }
+// not support duplicate key
+
+// access properties in object
+
+//1. dot notation
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+// }
+// console.log(obj.name);
+
+// 2. bracket notation
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+// }
+// console.log(obj["name"]);
+
+
+// add (create)
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+// }
+
+// obj.role = "student"
+// obj["role"] = "student"
+
+// console.log(obj);
+
+// update
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+// }
+
+// obj.name = "mno"
+
+// console.log(obj);
+
+// delete
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+// }
+// delete obj.age
+// console.log(obj);
+
+
+// let a = 10
+// let b = a
+// b = 20
+// console.log(a);
+
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     address: {
+//         city: "jaipur",
+//         pincode: 123456
+//     }
+// }
+// let obj1 = obj // assigned
+// let obj1 = { ...obj } // shallow copy
+// let obj1 = structuredClone(obj) // deep copy
+// obj.address.city = "haryana"
+// obj1.name = "mno"
+// obj.name = "xyz"
+// console.log(obj);
+// console.log(obj1);
+
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student"
+// }
+
+// obj.name
+// obj.age
+// obj.role
+// const { name: fullName, ...abc } = obj
+// const { age } = abc
+// console.log(fullName, age, abc);
+
+
+// for..in
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student"
+// }
+
+
+// for (let a in obj) {
+//     console.log(typeof a, obj[a]);
+// }
+
+// object methods
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student",
+//     abc: () => {
+//         return "hello" + this.name
+//     }
+// }
+
+// console.log(obj.name);
+// console.log(obj.abc());
+
+
+// 1. Object.keys()
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student",
+// }
+
+// console.log(Object.keys(obj));
+
+// 2. Object.values()
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student",
+// }
+
+// console.log(Object.values(obj));
+
+// 3. Object.entries()
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student",
+// }
+
+// console.log(Object.entries(obj));
+
+// 4. Object.fromEntries()
+
+// let obj = [['name', 'abc'], ['age', 25], ['role', 'student']]
+
+// console.log(Object.fromEntries(obj));
+
+// 5. object.assign()
+
+// let obj1 = {
+//     name: "abc"
+// }
+// let obj2 = {
+//     age: 25,
+//     role: "student"
+// }
+
+// obj2 = { ...obj1, ...obj2 }
+// console.log(obj2);
+
+
+
+// let obj3 = Object.assign({}, obj1);
+
+// obj3.name = "mukesh"
+
+// console.log(obj1);
+// console.log(obj3);
+
+
+// let obj1 = {
+//     name: "abc",
+//     age: 25
+// }
+
+// let obj2 = {
+//     role: "student",
+//     address: "jaipur"
+// }
+
+
+// let obj3 = Object.assign({}, obj1, obj2) //shallow copy
+
+// let obj3 = { ...obj1, ...obj2 } //shallow copy
+
+// let obj4 = structuredClone({ ...obj1, ...obj2 })
+
+// let obj4 = structuredClone(Object.assign({}, obj1, obj2))
+
+// obj4.name = "mukesh"
+// obj1.name = "suresh"
+
+// console.log(obj1);
+// console.log(obj2);
+// console.log(obj4);
+
+// 6. length
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student"
+// }
+
+// let result = Object.keys(obj)
+// console.log(result.length);
+
+// // 7. Object.freeze() :prevent to add, modify and delete
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student"
+// }
+
+// Object.freeze(obj)
+
+// obj.address = "jaipur"
+// obj.name = "mukesh"
+// delete obj.age
+
+// console.log(Object.isFrozen(obj));
+// console.log(Object.isSealed(obj));
+// console.log(obj);
+
+
+// 8. Object.seal() : prevent to add and delete
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student"
+// }
+
+// Object.seal(obj)
+
+// obj.address = "jaipur"
+// obj.name = "mukesh"
+// delete obj.age
+
+// console.log(Object.isSealed(obj));
+// console.log(obj);
+
+// 9. Object.preventExtension() : prevent to add
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student"
+// }
+
+// Object.preventExtensions(obj)
+
+// obj.address = "jaipur"
+// obj.name = "mukesh"
+// delete obj.age
+
+// console.log(Object.isExtensible(obj));
+// console.log(obj);
+
+
+
+// 10. object.hasOwn
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student"
+// }
+
+// console.log(Object.hasOwn(obj, "name"));
+
+// console.log(obj.hasOwnProperty("abc"));
+
+// console.log("age" in obj);
+
+// optional chaining (?)
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     role: "student",
+//     address: null
+// }
+
+// console.log(obj?.address ?? "N/A");
+
+// nullish coeleasing ( ?? )
+
+
+// let a = null // undefined
+// let result = a ?? "data not available"
+// console.log(result);
+
+
+// let a = null // undefined
+// let result = a || "data not available"
+// console.log(result);
+
+
+// ??
+
+
+// let a = 10 + 5
+// console.log(a ?? "value not found");
+
+// let a = ""
+// console.log(a || "value not found");
+
+
+// let obj = {
+//     name: "abc",
+//     age: 25,
+//     // address: {
+//     //     city: "jaipur"
+//     // }
+// }
+
+
+// let result = obj?.address?.city ?? "N/A"
+
+// console.log(result);
+
+
+
+// let arr = [10, 20, 30, 40, 50]
+// let [_, b] = [10, 20, 30, 40, 50]
+// let [a, b, c, d, e] = arr
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// console.log(e);
+
+
+
+// let obj = {
+//     name: "abc",
+//     age: 35,
+//     address: {
+//         city: "jaipur",
+//         pincode: 123456
+//     }
+// }
+// const { name, age, address: { city, pincode } } = obj
+
+// console.log(name, age, address);
+// console.log(obj);
+
+// const { city, pincode } = address
+
+// console.log(city, pincode);
+
+
+
+// constractor function
+
+// function abc(name, age) {
+//     this.name = name,
+//         this.age = age
+// }
+
+// let obj = new abc("abc", 25)
+// console.log(obj);
+
+// class function
+
+// class abc {
+//     constructor(name, age) {
+//         this.name = name,
+//             this.age = age
+//     }
+// }
+
+// let obj = new abc("abc", 25)
+// console.log(obj);
+
+
+
+// Q Group object by property age.
+// let arr = [
+//   { name:"amit",age:25},
+//   {name:"aashvin",age:22},
+//   { name:"anit",age:25}
+// ]
+
+
+// Q Move all zero to end.
+// let arr = [0, 10, 0, 6, 7, 8, 0, 5];
+// let re = arr.filter(0);
+// let result = [...re];
+// console.log(result);
+
+// Q Find common element in two arrays
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [3, 4, 5, 6, 7];
+// let res = arr1.filter(num => arr2.includes(num));
+// console.log(res);
+
+
+// Q Find the second Longest word in a sentence.
+// let str = "JavaScript is the most powerful language";
+// let str1 = str.split(" ");
+// str1.sort((a, b) => b.length - a.length);
+// console.log(str1[1]);
+
+// Q Output based Questions :
+// console.log(true == "1");            //true
+// console.log(false == []);             //true
+// console.log([] == ![]);             //true
+// console.log(NaN == NaN);             //false
+// console.log([1] === 1);              //true
+// console.log([1, 2] + [3, 4]);           //1234
 
 
 

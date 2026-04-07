@@ -1,0 +1,71 @@
+JavaScript String Methods – 60 Practice Problems
+
+1. Find the length of a string "JavaScript".
+2. Convert "hello world" to uppercase.
+3. Convert "WELCOME" to lowercase.
+4. Get the character at index 4 from "Programming".
+5. Find the Unicode value of character 'A'.
+6. Check if the string "Frontend" includes "end".
+7. Check whether "ReactJS" starts with "Re".
+8. Check whether "NodeJS" ends with "JS".
+9. Repeat the string "Hi " 5 times.
+10. Trim extra spaces from " hello ".
+11. Trim spaces only from the start of " JavaScript".
+12. Trim spaces only from the end of "React ".
+13. Replace "World" with "JavaScript" in "Hello World".
+14. Replace all spaces with hyphens in "web development course".
+15. Concatenate "Hello" and "World" using a string method.
+16. Extract "Script" from "JavaScript" using slice().
+17. Extract first 4 characters from "Frontend".
+18. Extract last 3 characters from "Backend".
+19. Use substring() to get "end" from "Frontend".
+
+20. Use substr() to extract 5 characters starting from index 2 in "JavaScript".
+21. Slice a string "Programming" from index 3 to 8.
+22. Get the last character of "Developer" using a string method.
+23. Remove first character from "Hello".
+24. Remove last character from "World".
+25. Extract middle 3 characters from "ReactJS".
+26. Find the index of "JS" in "I love JS".
+27. Find the last index of "a" in "JavaScript".
+28. Check if "MongoDB" contains "SQL".
+29. Search "script" in "JavaScript" using search().
+30. Find the position of "dev" in "web development".
+31. Find the index of first space in "Hello World".
+32. Find the index of "x" in "ExpressJS".
+33. Check if "frontend" includes "Front" (case-sensitive).
+34. Search "React" in "I use ReactJS daily".
+35. Find last occurrence of "o" in "Hello World".
+36. Convert "apple,banana,orange" into a string with | instead of ,.
+37. Pad "5" to make it "005" using padStart().
+38. Pad "99" to make it "9900" using padEnd().
+39. Convert number 123 into a string.
+
+40. Convert boolean true into a string.
+41. Split "HTML CSS JS" into words using a string method.
+42. Join "Hello" and "JavaScript" with a space using template literals.
+43. Replace "bad" with "good" in "This is bad".
+44. Remove all vowels from "JavaScript" using replace().
+45. Capitalize the first letter of "hello" using string methods.
+46. Count how many times "a" appears in "JavaScript".
+47. Check whether "madam" is a palindrome using string methods.
+48. Reverse the string "Hello" using string methods.
+49. Check if two strings "abc" and "ABC" are equal (ignore case).
+50. Remove all spaces from "I love JavaScript".
+
+51. Remove duplicate characters from "programming" using string methods.
+52. Find the longest word in "JavaScript makes web development powerful".
+53. Convert "hello world" into "Hello World" (title case).
+54. Find the first non-repeating character in "aabbccddeffg".
+
+55. Count the number of words in " I love JavaScript " after removing extra spaces.
+
+56. Convert "2026-02-05" into "05/02/2026" using string methods.
+
+57. Mask the last 4 digits of "1234567812345678" as "************5678".
+
+58. Remove all special characters from "@J!a#v$a%S^c&r*i(p)t".
+
+59. Check whether "abc123" is an alphanumeric string.
+
+60. Find the most frequent character in "mississippi".
