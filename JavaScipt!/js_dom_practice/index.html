@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="abc"> hello dom</div>
+
+    <script>
+        let result = document.querySelector("#abc");
+        console.log(result);
+        // result.textContent("hello element"); -> Mistake : 👉 textContent is not a function, it’s a property. So calling it like a function does nothing (and usually throws an error in console).
+        result.textContent = "hello element";
+    </script>
+</body>
+</html>
