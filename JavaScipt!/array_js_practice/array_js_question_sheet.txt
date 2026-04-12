@@ -1,0 +1,35 @@
+30 interview-focused problem questions on JavaScript Array Methods.
+
+Easy Level
+1. Remove duplicate values from an array using array methods.
+2. Find the maximum number in an array without using Math.max().
+3. Convert an array of strings to uppercase using an array method.
+4. Count how many times each element appears in an array.
+5. Check if at least one number in an array is negative.
+6. Check if all elements in an array are numbers.
+7. Find the first element greater than 50.
+8. Convert a nested array into a single-level array.
+9. Reverse an array without mutating the original array.
+10. Find the index of the last occurrence of a value.
+
+Medium Level
+1. From an array of numbers, return only even numbers.
+2. Multiply each element by 3 and return a new array.
+3. Find the sum of all numbers in an array.
+4. Remove falsy values (false, 0, "", null, undefined, NaN) from an array.
+5. Sort an array of numbers in ascending order.
+6. Sort an array of objects by age property.
+7. Return only unique values using filter().
+8. Find the longest string in an array.
+9. Convert an array of objects into an object using reduce().
+
+Advanced Level
+1. Find the second largest number in an array.
+2. Chunk an array into smaller arrays of given size.
+3. Remove an element at a specific index without mutating the array.
+4. Find the intersection of two arrays.
+5. Find the difference between two arrays.
+6. Flatten a deeply nested array.
+7. Count total price from a cart array using reduce().
+8. Convert an array into a key-value map object.
+9. Find duplicate elements in an array.
