@@ -1,0 +1,23 @@
+Intermediate Level:-
+
+1. Write a function that counts how many times each character appears in a string using an
+object.
+2. Convert an array into an object where keys are indexes and values are elements.
+3. Convert an array of objects into a single object using a specific key.
+4. Find the property with the highest value in an object.
+5. Sum all numeric values of an object.
+6. Remove properties with null or undefined values.
+7. Create a function that inverts keys and values of an object.
+8. Sort object keys alphabetically.
+9. Sort object values numerically.
+10. Create a deep copy of an object.
+11. Merge two objects but overwrite only common keys.
+12. Freeze an object and try modifying it.
+13. Check if two objects are equal.
+14. Convert object values to uppercase.
+15. Extract only string values from an object.
+16. Create nested objects and access deep values.
+17. Flatten a nested object into a single-level object.
+18. Create an object from two arrays (keys and values).
+19. Group array elements by a property using an object.
+20. Count vowels in each word of an array using objects
