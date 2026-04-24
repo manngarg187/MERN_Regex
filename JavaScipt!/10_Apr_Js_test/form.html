@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        name
+        <input type="name" id="name" name="name">
+        <input type="submit" value="submit">
+    </form>
+    <p id="para"></p>
+    <script>
+        let form = document.querySelector("form")
+        let name = document.querySelector("#name")
+        let para = document.querySelector("#para")
+        form.addEventListener("submit", (e) => {
+            e.preventDefault()
+            let fullName = name.value
+            if (fullName === "") {
+                para.textContent = "please enter fullname"
+                para.style.color = "red"
+                alert("please enter fullname")
+                return
+            }
+        })
+    </script>
+</body>
+
+</html>
+zyd-oqqs-ymm

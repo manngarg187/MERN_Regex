@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do List</title>
+</head>
+<body>
+
+    <h1>My ToDo List</h1>
+
+    <input type="text" id="task_name" placeholder="Enter New Task Name">
+    <button id="abc">Add Task</button>
+    <br></br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Task Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="xyz"></tbody>
+    </table>
+
+    <script>
+        let add_button = document.querySelector("#abc");
+        let table_select = document.querySelector("#xyz");
+        let input_box = document.querySelector("#task_name");
+
+        add_button.addEventListener("click", () => {
+
+            let task = input_box.value;
+
+            if (task.trim() === "") return;
+
+            let newRow = document.createElement("tr");
+
+            newRow.innerHTML = `
+                <td>${task}</td>
+                <td><button class="deleteBtn">Delete</button></td>
+            `;
+
+            table_select.appendChild(newRow);
+
+            input_box.value = "";
+        });
+
+        table_select.addEventListener("click", (event) => {
+            if (event.target.classList.contains("deleteBtn")) {
+                event.target.parentElement.parentElement.remove();
+            }
+        });
+    </script>
+
+</body>
+</html>
