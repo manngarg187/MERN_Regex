@@ -1,0 +1,29 @@
+.sidebar {
+  width: 220px;
+  background: #252526;
+  padding: 10px;
+}
+
+.sidebar h3 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.sidebar li {
+  font-size: 13px;
+  padding: 3px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background: #333;
+}
+
+.nested {
+  padding-left: 15px;
+}

@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+/* Menu */
+.menu-bar {
+  height: 30px;
+  background: #333;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+.menu-bar span:hover {
+  background: #444;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+/* Activity Bar */
+.activity-bar {
+  width: 50px;
+  background: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  gap: 20px;
+}
+
+.activity-bar i {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.activity-bar i:hover {
+  color: white;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #252526;
+  padding: 10px;
+}
+
+.folder-title {
+  font-size: 13px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.sidebar li {
+  font-size: 13px;
+  padding: 3px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background: #333;
+}
+
+.nested {
+  padding-left: 15px;
+}
+
+/* Editor Section */
+.editor-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  background: #2d2d2d;
+}
+
+.tab {
+  padding: 8px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  border-right: 1px solid #444;
+}
+
+.tab.active {
+  background: #1e1e1e;
+}
+
+/* Editor */
+.editor {
+  flex: 1;
+  padding: 15px;
+}
+
+/* Status Bar */
+.status-bar {
+  height: 30px;
+  background: #007acc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+  font-size: 12px;
+}

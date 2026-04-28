@@ -1,0 +1,18 @@
+.activity-bar {
+  width: 50px;
+  background: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  gap: 20px;
+}
+
+.activity-bar i {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.activity-bar i:hover {
+  color: white;
+}

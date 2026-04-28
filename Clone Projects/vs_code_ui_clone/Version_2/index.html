@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VS Code Clone - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-[#1e1e1e] text-gray-300 font-sans">
+
+    <!-- Menu Bar -->
+    <div class="h-[30px] bg-[#333] flex items-center gap-4 px-3 text-sm">
+        <span class="hover:bg-[#444] px-1 cursor-pointer">File</span>
+        <span class="hover:bg-[#444] px-1 cursor-pointer">Edit</span>
+        <span class="hover:bg-[#444] px-1 cursor-pointer">Selection</span>
+        <span class="hover:bg-[#444] px-1 cursor-pointer">View</span>
+        <span class="hover:bg-[#444] px-1 cursor-pointer">Go</span>
+        <span class="hover:bg-[#444] px-1 cursor-pointer">Run</span>
+        <span class="hover:bg-[#444] px-1 cursor-pointer">Help</span>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="flex h-[calc(100vh-60px)]">
+
+        <!-- Activity Bar -->
+        <div class="w-[50px] bg-[#2c2c2c] flex flex-col items-center pt-4 gap-5">
+            <i class="fas fa-file text-gray-400 hover:text-white cursor-pointer"></i>
+            <i class="fas fa-search text-gray-400 hover:text-white cursor-pointer"></i>
+            <i class="fas fa-code-branch text-gray-400 hover:text-white cursor-pointer"></i>
+            <i class="fas fa-bug text-gray-400 hover:text-white cursor-pointer"></i>
+            <i class="fas fa-cog text-gray-400 hover:text-white cursor-pointer"></i>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="w-[220px] bg-[#252526] p-2 text-sm">
+
+            <h3 class="text-xs mb-2">EXPLORER</h3>
+
+            <div>
+                <div class="cursor-pointer">📂 project</div>
+
+                <ul class="pl-3">
+                    <li class="py-1 hover:bg-[#333] cursor-pointer">📄 index.html</li>
+                    <li class="py-1 hover:bg-[#333] cursor-pointer">📄 style.css</li>
+                    <li class="py-1 hover:bg-[#333] cursor-pointer">📄 script.js</li>
+
+                    <li class="mt-2 cursor-pointer">📂 assets</li>
+                    <ul class="pl-4">
+                        <li class="py-1 hover:bg-[#333] cursor-pointer">📄 logo.png</li>
+                        <li class="py-1 hover:bg-[#333] cursor-pointer">📄 bg.jpg</li>
+                    </ul>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Editor Section -->
+        <div class="flex-1 flex flex-col">
+
+            <!-- Tabs -->
+            <div class="flex bg-[#2d2d2d]">
+                <div class="px-3 py-2 border-r border-[#444] bg-[#1e1e1e] cursor-pointer">
+                    index.html ✖
+                </div>
+                <div class="px-3 py-2 border-r border-[#444] cursor-pointer">
+                    style.css ✖
+                </div>
+                <div class="px-3 py-2 border-r border-[#444] cursor-pointer">
+                    script.js ✖
+                </div>
+            </div>
+
+            <!-- Editor -->
+            <div class="flex-1 p-4">
+                <p>// Your code starts here...</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Status Bar -->
+    <div class="h-[30px] bg-[#007acc] flex justify-between items-center px-3 text-xs">
+        <span>Ln 1, Col 1</span>
+        <span>UTF-8</span>
+        <span>Spaces: 2</span>
+    </div>
+
+</body>
+
+</html>
