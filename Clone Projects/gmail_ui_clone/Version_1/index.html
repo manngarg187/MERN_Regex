@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gmail Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <body>
+
+        <!-- Header -->
+        <div class="header">
+
+            <div class="left">
+                <i class="fas fa-bars"></i>
+                <span class="logo">Gmail</span>
+            </div>
+
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search mail">
+            </div>
+
+            <div class="right">
+                <i class="fas fa-question-circle"></i>
+                <i class="fas fa-cog"></i>
+                <i class="fas fa-user-circle"></i>
+            </div>
+
+        </div>
+
+        <!-- Layout -->
+        <div class="container">
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <button class="compose">
+                    <i class="fas fa-pen"></i> Compose
+                </button>
+
+                <ul>
+                    <li class="active"><i class="fas fa-inbox"></i> Inbox</li>
+                    <li><i class="fas fa-star"></i> Starred</li>
+                    <li><i class="fas fa-paper-plane"></i> Sent</li>
+                    <li><i class="fas fa-file"></i> Drafts</li>
+                    <li><i class="fas fa-exclamation-circle"></i> Spam</li>
+                </ul>
+            </div>
+
+            <!-- Main -->
+            <div class="main">
+
+                <!-- Categories -->
+                <div class="categories">
+                    <div class="category active">Primary</div>
+                    <div class="category">Social</div>
+                    <div class="category">Promotions</div>
+                </div>
+
+                <!-- Email List -->
+                <div class="email-list">
+
+                    <div class="email unread">
+                        <span class="sender">Amazon</span>
+                        <span class="subject">Your order has been shipped</span>
+                        <span class="time">10:30 AM</span>
+                    </div>
+
+                    <div class="email unread">
+                        <span class="sender">LinkedIn</span>
+                        <span class="subject">New job recommendations</span>
+                        <span class="time">9:15 AM</span>
+                    </div>
+
+                    <div class="email">
+                        <span class="sender">GitHub</span>
+                        <span class="subject">New pull request assigned</span>
+                        <span class="time">Yesterday</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

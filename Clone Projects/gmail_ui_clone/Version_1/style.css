@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f6f8fc;
+}
+
+/* Header */
+.header {
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header i {
+    cursor: pointer;
+    color: #555;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d93025;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #eaf1fb;
+    padding: 8px 12px;
+    border-radius: 25px;
+    width: 40%;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    background: white;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.compose {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background: #c2e7ff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar li:hover {
+    background: #e8f0fe;
+}
+
+.sidebar .active {
+    background: #d3e3fd;
+    font-weight: bold;
+}
+
+/* Main */
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Categories */
+.categories {
+    display: flex;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.category {
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.category.active {
+    border-bottom: 3px solid #d93025;
+    font-weight: bold;
+}
+
+/* Emails */
+.email-list {
+    background: white;
+}
+
+.email {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.email:hover {
+    background: #f1f3f4;
+}
+
+.unread {
+    font-weight: bold;
+}
+
+.sender {
+    width: 20%;
+}
+
+.subject {
+    width: 60%;
+    color: #555;
+}
+
+.time {
+    width: 20%;
+    text-align: right;
+}

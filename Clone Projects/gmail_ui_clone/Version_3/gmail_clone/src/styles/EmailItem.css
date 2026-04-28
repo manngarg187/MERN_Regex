@@ -1,0 +1,29 @@
+.email {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.email:hover {
+  background: #f1f3f4;
+}
+
+.unread {
+  font-weight: bold;
+}
+
+.sender {
+  width: 20%;
+}
+
+.subject {
+  width: 60%;
+  color: #555;
+}
+
+.time {
+  width: 20%;
+  text-align: right;
+}

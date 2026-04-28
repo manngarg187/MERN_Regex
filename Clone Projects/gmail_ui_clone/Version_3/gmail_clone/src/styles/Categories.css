@@ -1,0 +1,15 @@
+.categories {
+  display: flex;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.category {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.category.active {
+  border-bottom: 3px solid #d93025;
+  font-weight: bold;
+}

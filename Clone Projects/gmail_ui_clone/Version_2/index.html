@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gmail Clone - Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-[#f6f8fc] font-sans">
+
+  <!-- Header -->
+  <div class="h-[60px] bg-white flex justify-between items-center px-5 border-b">
+
+    <div class="flex items-center gap-4">
+      <i class="fas fa-bars text-gray-600 cursor-pointer"></i>
+      <span class="text-xl font-bold text-red-600">Gmail</span>
+    </div>
+
+    <div class="flex items-center bg-[#eaf1fb] px-4 py-2 rounded-full w-[40%]">
+      <i class="fas fa-search text-gray-500"></i>
+      <input class="bg-transparent outline-none ml-3 w-full" type="text" placeholder="Search mail">
+    </div>
+
+    <div class="flex gap-4 text-gray-600">
+      <i class="fas fa-question-circle cursor-pointer"></i>
+      <i class="fas fa-cog cursor-pointer"></i>
+      <i class="fas fa-user-circle cursor-pointer"></i>
+    </div>
+
+  </div>
+
+  <!-- Layout -->
+  <div class="flex h-[calc(100vh-60px)]">
+
+    <!-- Sidebar -->
+    <div class="w-[240px] bg-white p-4 border-r">
+
+      <button class="w-full py-2 rounded-full bg-blue-100 mb-4 flex items-center justify-center gap-2">
+        <i class="fas fa-pen"></i> Compose
+      </button>
+
+      <ul class="space-y-2 text-sm">
+
+        <li class="flex items-center gap-3 p-2 rounded-full bg-blue-100 font-semibold cursor-pointer">
+          <i class="fas fa-inbox"></i> Inbox
+        </li>
+
+        <li class="flex items-center gap-3 p-2 rounded-full hover:bg-gray-100 cursor-pointer">
+          <i class="fas fa-star"></i> Starred
+        </li>
+
+        <li class="flex items-center gap-3 p-2 rounded-full hover:bg-gray-100 cursor-pointer">
+          <i class="fas fa-paper-plane"></i> Sent
+        </li>
+
+        <li class="flex items-center gap-3 p-2 rounded-full hover:bg-gray-100 cursor-pointer">
+          <i class="fas fa-file"></i> Drafts
+        </li>
+
+        <li class="flex items-center gap-3 p-2 rounded-full hover:bg-gray-100 cursor-pointer">
+          <i class="fas fa-exclamation-circle"></i> Spam
+        </li>
+
+      </ul>
+
+    </div>
+
+    <!-- Main -->
+    <div class="flex-1 flex flex-col">
+
+      <!-- Categories -->
+      <div class="flex bg-white border-b text-sm">
+
+        <div class="px-5 py-3 border-b-4 border-red-500 font-semibold cursor-pointer">
+          Primary
+        </div>
+
+        <div class="px-5 py-3 cursor-pointer hover:bg-gray-100">
+          Social
+        </div>
+
+        <div class="px-5 py-3 cursor-pointer hover:bg-gray-100">
+          Promotions
+        </div>
+
+      </div>
+
+      <!-- Email List -->
+      <div class="bg-white text-sm">
+
+        <div class="flex justify-between px-5 py-3 border-b hover:bg-gray-100 font-semibold cursor-pointer">
+          <span class="w-[20%]">Amazon</span>
+          <span class="w-[60%] text-gray-600">Your order has been shipped</span>
+          <span class="w-[20%] text-right">10:30 AM</span>
+        </div>
+
+        <div class="flex justify-between px-5 py-3 border-b hover:bg-gray-100 font-semibold cursor-pointer">
+          <span class="w-[20%]">LinkedIn</span>
+          <span class="w-[60%] text-gray-600">New job recommendations</span>
+          <span class="w-[20%] text-right">9:15 AM</span>
+        </div>
+
+        <div class="flex justify-between px-5 py-3 border-b hover:bg-gray-100 cursor-pointer">
+          <span class="w-[20%]">GitHub</span>
+          <span class="w-[60%] text-gray-600">New pull request assigned</span>
+          <span class="w-[20%] text-right">Yesterday</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
