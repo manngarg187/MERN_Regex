@@ -1,0 +1,50 @@
+.navbar {
+  background: #131921;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-left {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.location {
+  font-size: 12px;
+}
+
+.search {
+  display: flex;
+  width: 40%;
+}
+
+.search input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+}
+
+.search button {
+  background: orange;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+}
+
+.cart {
+  font-weight: bold;
+}

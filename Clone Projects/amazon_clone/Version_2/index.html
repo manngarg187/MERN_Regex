@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Clone - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#e3e6e6] font-sans">
+
+    <!-- Navbar -->
+    <div class="bg-[#131921] text-white flex justify-between items-center px-5 py-2">
+
+        <div class="flex items-center gap-4">
+            <div class="text-xl font-bold">Amazon</div>
+            <div class="text-xs">Deliver to India</div>
+        </div>
+
+        <div class="flex w-[40%]">
+            <input class="w-full p-2 text-black outline-none" placeholder="Search Amazon">
+            <button class="bg-yellow-400 px-4">🔍</button>
+        </div>
+
+        <div class="flex gap-5">
+            <div>Sign In</div>
+            <div>Orders</div>
+            <div class="font-bold">🛒 Cart</div>
+        </div>
+
+    </div>
+
+    <!-- Menu -->
+    <div class="bg-[#232f3e] text-white flex gap-5 px-5 py-2 text-sm">
+        <span>All</span>
+        <span>Today's Deals</span>
+        <span>Mobiles</span>
+        <span>Fashion</span>
+        <span>Electronics</span>
+    </div>
+
+    <!-- Hero -->
+    <div class="h-[300px] bg-cover bg-center"
+        style="background-image: url('https://images.unsplash.com/photo-1607082349566-187342175e2f')">
+    </div>
+
+    <!-- Products -->
+    <div class="grid grid-cols-4 gap-5 p-5">
+
+        <div class="bg-white p-4 text-center hover:scale-105 transition">
+            <h3 class="font-semibold">Electronics</h3>
+            <img class="mt-2 h-[150px] w-full object-cover"
+                src="https://images.unsplash.com/photo-1510557880182-3a935c6bba0d">
+        </div>
+
+        <div class="bg-white p-4 text-center hover:scale-105 transition">
+            <h3 class="font-semibold">Fashion</h3>
+            <img class="mt-2 h-[150px] w-full object-cover"
+                src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53">
+        </div>
+
+        <div class="bg-white p-4 text-center hover:scale-105 transition">
+            <h3 class="font-semibold">Home Decor</h3>
+            <img class="mt-2 h-[150px] w-full object-cover"
+                src="https://images.unsplash.com/photo-1505691938895-1758d7feb511">
+        </div>
+
+        <div class="bg-white p-4 text-center hover:scale-105 transition">
+            <h3 class="font-semibold">Beauty</h3>
+            <img class="mt-2 h-[150px] w-full object-cover"
+                src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9">
+        </div>
+
+    </div>
+
+</body>
+
+</html>

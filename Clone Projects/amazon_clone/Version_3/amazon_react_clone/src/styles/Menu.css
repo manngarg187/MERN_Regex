@@ -1,0 +1,7 @@
+.menu {
+  background: #232f3e;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+}
