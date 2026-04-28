@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Classroom Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navbar -->
+    <header class="flex justify-between items-center h-[60px] px-5 bg-white border-b fixed w-full top-0 z-50">
+
+        <div class="flex items-center gap-4">
+            <span class="text-2xl cursor-pointer">&#9776;</span>
+            <h2 class="text-xl">Classroom</h2>
+        </div>
+
+        <div class="flex items-center gap-5">
+            <span class="text-xl cursor-pointer">+</span>
+            <img src="images/profile.jpg" class="w-10 h-10 rounded-full object-cover">
+        </div>
+
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="fixed top-[60px] left-0 w-[220px] h-screen bg-white p-5 hidden sm:block">
+        <ul class="space-y-2">
+            <li class="p-3 rounded-lg cursor-pointer hover:bg-blue-100">Classes</li>
+            <li class="p-3 rounded-lg cursor-pointer hover:bg-blue-100">Calendar</li>
+            <li class="p-3 rounded-lg cursor-pointer hover:bg-blue-100">To-do</li>
+            <li class="p-3 rounded-lg cursor-pointer hover:bg-blue-100">Settings</li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="mt-[80px] sm:ml-[240px] p-5 flex flex-wrap gap-5">
+
+        <!-- Card 1 -->
+        <div
+            class="relative w-full sm:w-[302px] h-[298px] bg-blue-500 text-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 transition">
+
+            <h3 class="absolute top-[30px] left-[30px] text-lg font-bold">
+                Web Development
+            </h3>
+
+            <p class="absolute bottom-[30px] right-[30px] text-sm">
+                Mr. Sharma
+            </p>
+
+        </div>
+
+        <!-- Card 2 -->
+        <div
+            class="relative w-full sm:w-[302px] h-[298px] bg-green-500 text-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 transition">
+
+            <h3 class="absolute top-[30px] left-[30px] text-lg font-bold">
+                Business Analytics
+            </h3>
+
+            <p class="absolute bottom-[30px] right-[30px] text-sm">
+                Prof. Gupta
+            </p>
+
+        </div>
+
+        <!-- Card 3 -->
+        <div
+            class="relative w-full sm:w-[302px] h-[298px] bg-yellow-400 text-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 transition">
+
+            <h3 class="absolute top-[30px] left-[30px] text-lg font-bold">
+                Java Programming
+            </h3>
+
+            <p class="absolute bottom-[30px] right-[30px] text-sm">
+                Dr. Singh
+            </p>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
