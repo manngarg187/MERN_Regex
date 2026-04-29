@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Clone - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white font-sans">
+
+    <!-- Navbar -->
+    <div class="absolute w-full flex justify-between px-10 py-5 z-10">
+        <h2 class="text-red-600 text-2xl font-bold">NETFLIX</h2>
+        <button class="bg-red-600 px-4 py-1 rounded">Sign In</button>
+    </div>
+
+    <!-- Hero -->
+    <div class="relative h-screen bg-cover bg-center"
+        style="background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/9c2b3e4f-hero-bg.jpg')">
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+
+        <!-- Content -->
+        <div class="relative z-10 flex flex-col items-center justify-center text-center h-full px-4">
+
+            <h1 class="text-5xl font-bold max-w-2xl">
+                Unlimited movies, TV shows and more
+            </h1>
+
+            <p class="mt-4 text-lg">
+                Watch anywhere. Cancel anytime.
+            </p>
+
+            <!-- CTA -->
+            <div class="mt-6 flex">
+                <input class="px-4 py-3 w-[300px] text-black outline-none" placeholder="Email address">
+                <button class="bg-red-600 px-6 text-lg font-semibold">
+                    Get Started >
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Rows -->
+    <div class="px-5 py-6 space-y-8">
+
+        <!-- Row 1 -->
+        <div>
+            <h2 class="mb-2 text-lg font-semibold">Trending Now</h2>
+
+            <div class="flex gap-3 overflow-x-auto">
+
+                <img class="w-[150px] hover:scale-110 transition cursor-pointer"
+                    src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg">
+
+                <img class="w-[150px] hover:scale-110 transition cursor-pointer"
+                    src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg">
+
+                <img class="w-[150px] hover:scale-110 transition cursor-pointer"
+                    src="https://image.tmdb.org/t/p/w500/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg">
+
+                <img class="w-[150px] hover:scale-110 transition cursor-pointer"
+                    src="https://image.tmdb.org/t/p/w500/6agKYU5IQFpuDyUYPu39w7UCRrJ.jpg">
+
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div>
+            <h2 class="mb-2 text-lg font-semibold">Top Rated</h2>
+
+            <div class="flex gap-3 overflow-x-auto">
+
+                <img class="w-[150px] hover:scale-110 transition cursor-pointer"
+                    src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg">
+
+                <img class="w-[150px] hover:scale-110 transition cursor-pointer"
+                    src="https://image.tmdb.org/t/p/w500/9O1Iy9od7K0F2UjF1JvB6H9tJt.jpg">
+
+                <img class="w-[150px] hover:scale-110 transition cursor-pointer"
+                    src="https://image.tmdb.org/t/p/w500/6ELCZlTA5lGUops70hKdB83WJxH.jpg">
+
+                <img class="w-[150px] hover:scale-110 transition cursor-pointer"
+                    src="https://image.tmdb.org/t/p/w500/2CAL2433ZeIihfX1Hb2139CX0pW.jpg">
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

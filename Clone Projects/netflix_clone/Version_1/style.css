@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  z-index: 2;
+}
+
+.logo {
+  color: red;
+  font-size: 28px;
+}
+
+.signin {
+  background: red;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/9c2b3e4f-hero-bg.jpg") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Overlay (VERY IMPORTANT 🔥) */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, black 40%, transparent);
+}
+
+/* Hero Content */
+.hero-content {
+  position: relative;
+  text-align: center;
+  max-width: 700px;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+/* CTA */
+.cta {
+  margin-top: 25px;
+}
+
+.cta input {
+  padding: 12px;
+  width: 300px;
+  border: none;
+}
+
+.cta button {
+  padding: 12px 20px;
+  background: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Rows */
+.row {
+  margin: 30px 20px;
+}
+
+.row h2 {
+  margin-bottom: 10px;
+}
+
+/* Posters */
+.row-posters {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.row-posters img {
+  width: 150px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.row-posters img:hover {
+  transform: scale(1.2);
+}
